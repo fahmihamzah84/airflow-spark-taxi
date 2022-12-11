@@ -119,4 +119,4 @@ gcs_to_bigquery_task = PythonOperator(
 
 end = DummyOperator(task_id="end", dag=dag)
 
-start >> spark_job_load_postgres >> local_to_gcs_task spark_job_read_postgres >> end
+start >> spark_job_load_postgres >> spark_job_read_postgres >> local_to_gcs_task >> gcs_to_bigquery_task >> end
