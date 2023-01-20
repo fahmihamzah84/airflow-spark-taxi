@@ -85,4 +85,3 @@ list = [question1, question2, question3, question4]
 
 for items in list:
     items.coalesce(1).write.format("csv").mode("overwrite").save("/home/fahmihamzah84/data_processing/airflow-spark/", header=True)
-
