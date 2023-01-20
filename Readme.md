@@ -15,4 +15,4 @@ localhost:8181
 ```bash
 localhost:8282
 ```
-- The queries used in this data pipeline is located at this [File](spark/app/read-postgrest.py)
+- The queries used in this data pipeline is located at this [File](master/spark/app/read-postgres.py)
