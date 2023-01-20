@@ -15,4 +15,4 @@ localhost:8181
 ```bash
 localhost:8282
 ```
-- The queries used in this data pipeline is located at this [File](airflow-spark-taxi/spark/app/read-postgres.py)
+- The queries used in this data pipeline is located at this [File](https://github.com/fahmihamzah84/airflow-spark-taxi/blob/master/spark/app/read-postgres.py)
